@@ -1,0 +1,36 @@
+.manu{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  margin: 0px 40px;
+}
+.logo{
+  color: rgb(64, 64, 128);
+}
+.logo span{
+  color: red;
+}
+.header nav ul li{
+  display: inline-block;
+  padding: 15px;
+}
+nav ul li a{
+  color: rgb(46, 48, 54);
+  list-style: none;
+  text-decoration: none;
+}
+/* manu section end */
+/* developers section */
+.developers{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  text-align: center;
+  margin: 0px 40px;
+  
+}
+.developer{
+  margin: 4px;
+  box-shadow: 10px 4px 10px 4px rgb(176, 176, 180);
+  text-align: center;
+  border-radius: 10px;
+}
