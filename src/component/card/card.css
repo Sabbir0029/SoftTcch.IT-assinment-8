@@ -1,0 +1,12 @@
+.card{
+  box-shadow: 10px 4px 10px 4px rgb(176, 176, 180);
+  margin: 10px;
+  text-align: center;
+}
+.btn{
+  cursor: pointer;
+  padding: 5px 15px;
+  color: aliceblue;
+  background-color: black;
+  margin-bottom: 5px;
+}

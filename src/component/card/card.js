@@ -1,11 +1,19 @@
 import React from 'react';
+import './card.css';
 
 const Card = (props) => {
-  const {name, img} = props.information;
+  const {name, img, position,id, salary, institution} = props.information;
   return (
-    <div>
-      <h3>name :{name}</h3>
+    <div className='card'>
       <img src={img} alt="" />
+      <h1 className='name'>Name : {name}</h1>
+      <h3>Id : {id}</h3>
+      <h3>Institution : {institution}</h3>
+      <h2>Position : {position}</h2>
+      <h2>Salary : {salary}</h2>
+      <button
+      onClick={() => props.member(props.information)}
+       className='btn'>Added</button>
     </div>
   );
 };

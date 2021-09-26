@@ -30,19 +30,19 @@ const Header = () => {
       <div className='developers'>
         <div className='developer'>
           <p>Front End Developer</p>
-          <h2>members : 50</h2>
+          <h2>Members : 50</h2>
         </div>
         <div className='developer'>
         <p>Software Developer</p>
-        <h2>members : 100</h2>
+        <h2>Members : 100</h2>
         </div>
         <div className='developer'>
         <p>Full Stack Developer</p>
-        <h2>members : 60</h2>
+        <h2>Members : 60</h2>
         </div>
         <div className='developer'>
         <p>Total Developers</p>
-        <h2>members : 210</h2>
+        <h2>Members : 210</h2>
         </div>
       </div>
       {/* developers section end */}
