@@ -26,8 +26,8 @@ const Body = () => {
             ></Card>)
         }
       </div>
-      <div>
-        <Added card ={card}></Added>
+      <div className='added'>
+        <Added cards ={card}></Added>
       </div>
     </div>
   );
