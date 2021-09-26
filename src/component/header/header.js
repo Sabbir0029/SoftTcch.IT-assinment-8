@@ -4,6 +4,7 @@ import { faHome, faUsers,faAddressCard,faIdBadge,faSearch } from '@fortawesome/f
 import './header.css';
 
 const Header = () => {
+  // FontAwesomeIcon
   const Homeicon = <FontAwesomeIcon icon={faHome} />
   const usersicon = <FontAwesomeIcon icon={faUsers} />
   const Addressicon = <FontAwesomeIcon icon={faAddressCard} />

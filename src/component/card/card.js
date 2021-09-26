@@ -1,6 +1,6 @@
 import React from 'react';
 import './card.css';
-
+// This function shows member information
 const Card = (props) => {
   const {name, img, position,id, salary, institution} = props.information;
   return (
@@ -11,6 +11,7 @@ const Card = (props) => {
       <h3>Institution : {institution}</h3>
       <h2>Position : {position}</h2>
       <h2>Salary : {salary}</h2>
+      {/* button */}
       <button
       onClick={() => props.member(props.information)}
        className='btn'>Added</button>
