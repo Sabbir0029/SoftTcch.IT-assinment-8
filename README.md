@@ -1,6 +1,6 @@
 # SoftTcch.IT
 
-This project was react app with [Create React App](https://assinment-8.netlify.app/).
+This project was bootstrapped with [Create React App](https://assinment-8.netlify.app/).
 
 ## Available Scripts
 
